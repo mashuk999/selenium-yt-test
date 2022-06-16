@@ -17,6 +17,6 @@ if __name__ == "__main__":
         browser=chrome # or firefox
     )
     print('1')
-    upload_result = youtube.upload(r"/home/runner/work/selenium-yt-test/selenium-yt-test/video.mp4", 'title', 'description', ['tag1', 'tag2'])
+    upload_result = youtube.upload(r"/home/runner/work/selenium-yt-test/selenium-yt-test/video.mp4", 'title1', 'description', ['tag', 'tag2'])
     print('2')
     input("Press Enter to continue...")
